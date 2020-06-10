@@ -363,6 +363,46 @@ int BigInt::BigIntCounter = 0;
 void main()
 {
 
+	/*
+	BigInt x, y("1234"), z("00000987654321");
+	cout << "x y z values: " << x << ' ' << y << ' ' << z << endl;
+
+	BigInt i(44, 2); // Array 大小 2		 
+	BigInt j(i);
+	BigInt k(10);
+	cout << "i j k values: " << i << ' ' << j << ' ' << k << endl;
+	cout << "Total BigInt Object Count: " << BigInt::getCount() << endl;
+	
+	x = y = "987654321098765432109876543210987654321098765432109876543210";
+	cout << "x y z values: " << x << ' ' << y << ' ' << z << endl;
+
+	y = 10; y *= -88;			cout << "y values: " << y << endl;
+	y = 10; y *= i;	 			cout << "y values: " << y << endl;
+	y = x / 8;					cout << "y values: " << y << endl;
+	x /= -8;					cout << "x values: " << x << endl;
+	x /= i;	 					cout << "x values: " << x << endl;
+
+	y = 10; y += -88;			cout << "y values: " << y << endl;
+	y = 10; y += i;	 			cout << "y values: " << y << endl;
+	y = 10; y -= -88;			cout << "y values: " << y << endl;
+	y = 10; y -= i;	 			cout << "y values: " << y << endl;
+
+	x = i + 3 + j * 2 * k;		cout << "x values: " << x << endl;
+	x = i - 3 - j * 2 * k;		cout << "x values: " << x << endl;
+	cout << "k values: " << k++ << ' ' << k << endl;
+	
+	k = 10;	x = (++k)++; 		
+	cout << "x k values: " << x << ' ' << k << endl;
+	k = 10;	x = (--k)--; 		
+	cout << "x k values: " << x << ' ' << k << endl;
+
+	x = y = "987654321098765432109876543210";
+	cout << "x y z values: " << x << ' ' << y << ' ' << z << endl;
+	int result = x > z;
+	cout << result<<endl;
+
+	system("pause");
+	*/
 	BigComplexNumber x, y("10", "20"), z(2, 4);
 
 	cout << "x y z values: " << x << ' ' << y << ' ' << z << endl;
